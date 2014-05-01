@@ -231,7 +231,7 @@ namespace NinjaTrader.Strategy
     
         #region variables
 
-        string m_configFileName = @"D:\trading\tepp\nt7fixbridge\acceptor.cfg";
+        string m_configFileName = @"D:\trading\NinjaTrader_FixBridge\NinjaTrader_FixBridge\config_samples\acceptor.cfg";
         string m_symbols = "ES ##-##,GC ##-##,CL ##-##";
         string m_bridgeName = (new Random()).Next(1000000000).ToString("000000000");
         
